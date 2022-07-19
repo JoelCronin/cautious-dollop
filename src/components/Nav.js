@@ -1,7 +1,7 @@
 import React from 'react';
-import './nav.css';
+import './styles/nav.css';
 
-export default function Nav() {
+export default function Nav({currentPage, handlePageChange}) {
 
 
   return (
@@ -10,10 +10,30 @@ export default function Nav() {
         <h1>Joel Cronin</h1>
       </header> 
       <nav>
-        <a href="#bio-id">About Me</a>
-        <a href="#project-id">Portfolio</a>
-        <a href="#contact-id">Contact</a>
-        <a href="#contact-id">Resume</a>
+        <a href="#AboutMe"
+           onClick={() => handlePageChange('AboutMe')}
+           className={currentPage === 'AboutMe' ? 'active' : 'nav'}
+          >
+            About Me
+        </a>
+        <a href="#Projects"
+           onClick={() => handlePageChange('Projects')}
+           className={currentPage === 'Projects' ? 'active' : 'nav'}
+          >
+            Portfolio
+        </a>
+        <a href="#Contact"
+           onClick={() => handlePageChange('Contact')}
+           className={currentPage === 'Contact' ? 'active' : 'nav'}
+          >
+            Contact
+        </a>
+        <a href="#Contact"
+           onClick={() => handlePageChange('Resume')}
+           className={currentPage === 'Resume' ? 'active' : 'nav'}
+          >
+            Resume
+        </a>
       </nav>
     </div>
   );

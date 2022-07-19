@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact.css'
+import './styles/contact.css'
 
 
 
@@ -8,7 +8,8 @@ export default function Contact() {
 
   return (
     <div>  
-        <div className="card">
+      hello
+        {/* <div className="card">
   <h2>Contact Us</h2>
   <div className="row">
     <div className="col">
@@ -50,7 +51,7 @@ export default function Contact() {
       <input type="submit" value="Submit"/>
     </div>
   </div>
-</div>
+</div> */}
 </div> 
   );
 }

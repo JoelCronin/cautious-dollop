@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutMe.css'
+import './styles/aboutMe.css'
 import profilePic from '../assets/profilePic.jpg'
 
 
