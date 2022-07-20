@@ -1,11 +1,12 @@
 *{
     font-family: "roboto", sans-serif ;
+    text-decoration: none;
  }
  
 nav {
     display: flex;
     font-size: 20px;
-    background-color: #f7f7f7;
+    background-color: #eaf2fa;
     justify-content: space-around;
     color: black;
   }
@@ -19,4 +20,8 @@ nav {
 
   .navigation{
     background-color: #f7f7f7;
+  }
+
+  .active{
+    background-color:  #eaf0fa6b;
   }

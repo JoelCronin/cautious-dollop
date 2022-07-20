@@ -1,0 +1,29 @@
+#footer{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #eaf2fa;
+    height: 100px;
+}
+
+svg{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.iconLink{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}

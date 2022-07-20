@@ -1,0 +1,55 @@
+*{
+    font-family: "roboto", sans-serif ;
+    text-decoration: none;
+ }
+ 
+nav {
+    display: flex;
+    font-size: 20px;
+    background-color: #eaf2fa;
+    justify-content: space-around;
+    color: black;
+  }
+
+  header {
+    background-color: #f7f7f7;
+    color: black;
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation{
+    background-color: #f7f7f7;
+  }
+
+
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .second-project {
+    height: 150px;
+    width: 150px;
+  }
+
+  .container-3 {
+    font-size: small;
+    justify-content: space-around;
+  }
+
+  .project{
+    display: flex;                 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border-right: var(--lightblue) solid 2px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+   .project h3{
+     height: 20px;
+   }

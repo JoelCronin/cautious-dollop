@@ -7,17 +7,17 @@ import './styles/projects.css'
 export default function Projects({lists}) {
 
   return (
-    <div>  
+    <section class="container container-3">
         {lists.map((list) => (
+          
             
-        <div key={list.id}>
-            <h2> {list.title} </h2>
-            <img src= {list.img} />
-            <p>{list.description}</p>
-            <p>{list.gitHub}</p>
-            <p>{list.deployed}</p>
-        </div>  
+<article className="project" key={list.id}>
+<h3>{list.title}</h3>
+<a href={list.gitHub}><img src={list.img} alt={list.description} class="second-project"/></a>
+<p>{list.description}</p>
+</article>
         ))}
-    </div> 
+  </section> 
   );
 }
+
