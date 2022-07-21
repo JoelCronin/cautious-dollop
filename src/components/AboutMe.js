@@ -7,7 +7,7 @@ import profilePic from '../assets/profilePic.jpg'
 export default function AboutMe() {
 
   return (
-    <section className="container container-1">
+    <section className="container-1">
         <aside className="profile" id="profile-id">
             <img src= {profilePic} alt="profile-pic" className="profPic"/> <br/><br/>
             <h2>Joel Cronin</h2> <br/>
