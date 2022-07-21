@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/contact.css'
+// import './styles/contact.css'
 
 
 
@@ -7,17 +7,11 @@ import './styles/contact.css'
 export default function Contact() {
 
   return (
-    <div>  
-      
-
-<section id="contact" class="home-section wg-contact   ">
-<div class="container">
-<div class="row contact-widget">
-<div class="col-12 col-lg-4 section-heading">
-<h1 id='contact-header'>Contact</h1>
+<div className='package' >
+<div id='contact-header' > 
+  <h2 >Contact</h2>
 </div>
-<div class="col-12 col-lg-8">
-<div class="mb-3">
+<div className='form'>
 <form name="contact" method="POST" string="placeholder)">
 <div class="form-group form-inline">
 <label class="sr-only" for="inputName">Name</label>
@@ -31,18 +25,11 @@ export default function Contact() {
 <label class="sr-only" for="inputMessage">Message</label>
 <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
 </div>
-<button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+<button type="submit" class="btn btn-outline-primary px-3 py-2" id='send'>Send</button>
 </form>
 </div>
-<ul class="fa-ul">
-</ul>
-</div>
-</div>
-</div>
-</section>
-</div>
 
-
+</div>
 
   );
 }

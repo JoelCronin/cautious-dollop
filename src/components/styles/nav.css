@@ -7,21 +7,37 @@ nav {
     display: flex;
     font-size: 20px;
     background-color: #eaf2fa;
-    justify-content: space-around;
+    justify-content: right;
     color: black;
   }
 
+  a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+
+   h1{
+    margin-top: 1px;
+   }
+
   header {
-    background-color: #f7f7f7;
+    background-color: #eaf2fa;
     color: black;
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    margin-left: 10%;
   }
 
   .navigation{
-    background-color: #f7f7f7;
+    background-color: #eaf2fa;
+  }
+
+  .nav{
+    padding-right: 20px;
   }
 
   .active{
-    background-color:  #eaf0fa6b;
+    background-color:  #eaf0fa00;
+    padding-right: 20px;
+    font-weight: 700;
+    text-shadow: 100em;
   }

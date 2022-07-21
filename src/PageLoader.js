@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import lists from './projectsList'
+import './app.css'
 
 
 function PageLoader() {

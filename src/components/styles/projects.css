@@ -1,32 +1,9 @@
-*{
-    font-family: "roboto", sans-serif ;
-    text-decoration: none;
- }
- 
-nav {
-    display: flex;
-    font-size: 20px;
-    background-color: #eaf2fa;
-    justify-content: space-around;
-    color: black;
-  }
-
-  header {
-    background-color: #f7f7f7;
-    color: black;
-    text-align: center;
-    margin: 0;
-  }
-
-  .navigation{
-    background-color: #f7f7f7;
-  }
-
 
   .container{
     display: flex;
     flex-direction: row;
   }
+  
 
   .second-project {
     height: 150px;
