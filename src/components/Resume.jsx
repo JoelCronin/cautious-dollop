@@ -7,7 +7,7 @@ function Resume() {
       <h4> Skills and Proficiencies:</h4> <br/>
       </div>
       <div id='skillPoints'>
-        <div id='frontend'>
+        <div className='frontend'>
           <h4 className='endType'>Front End</h4> <br />
           <ul>
             <li>HTML</li>
