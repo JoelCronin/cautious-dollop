@@ -171,14 +171,12 @@
 
   #footer{
     align-items: center;
-    align-content: center;
     display: flex;
-    text-align: center;
     justify-content: center;
     background-color: #eaf2fa;
     height: 100px;
     z-index: -2;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .iconLink{
