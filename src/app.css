@@ -453,13 +453,12 @@
   
     /* Borders needed to be adjusted to make sense on smaller screens so removed in some sections and moved from right to bottom on others */
     
-    /* .projects-title {
+    .projects-title {
       border: 0
     }
-    .profile,
-    .project {
+    .profile {
       border-bottom: var(--lightblue) solid 2px;
       border-right: 0;
-    } */
+    }
   
   }
