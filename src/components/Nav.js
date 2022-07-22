@@ -1,9 +1,8 @@
 import React from 'react';
-// import './styles/nav.css';
 
 export default function Nav({currentPage, handlePageChange}) {
 
-
+//Nav Component
   return (
     <div className="navigation">
       <header className="header">
@@ -11,6 +10,7 @@ export default function Nav({currentPage, handlePageChange}) {
       </header> 
       <nav>
         <a href="#AboutMe"
+        // On click will render appropriate page and change class so that the text can be highlighted
            onClick={() => handlePageChange('AboutMe')}
            className={currentPage === 'AboutMe' ? 'active' : 'nav'}
           >

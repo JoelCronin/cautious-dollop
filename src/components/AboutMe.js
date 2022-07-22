@@ -1,9 +1,7 @@
 import React from 'react';
-// import './styles/aboutMe.css'
 import profilePic from '../assets/profilePic.jpg'
 
-
-
+//About Me component
 export default function AboutMe() {
 
   return (

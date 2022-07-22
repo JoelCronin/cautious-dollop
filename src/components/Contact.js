@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
-// import './styles/contact.css'
 import {validateEmail} from '../utils/helpers'
 
 
-
-
 export default function Contact() {
+  //States set up for email, name message and potential error messages
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
   const [email, setEmail] = useState('')
-  const [emailCheck, setEmailCheck] = useState('');
+  const [errorCheck, setErrorCheck] = useState('');
 
+  //Monitors which field is being typed in and updates relevant variable through the Set functions
   const handleInputChange = (event) => {
     const { target } = event;
     const inputType = target.name;
@@ -25,22 +24,23 @@ export default function Contact() {
     }
   }
 
+// On pressing submit button this function check for valid email and that a name and message is provided
   const handleContactSubmit = (event) => {
     event.preventDefault();
 
     if(!validateEmail(email)) {
-      setEmailCheck('Email is in Invalid Format');
+      setErrorCheck('Email is in Invalid Format');
       return;
     } 
 
     if( !name || !message ) {
-      setEmailCheck('Name and Message must be filled out');
+      setErrorCheck('Name and Message must be filled out');
       return
     }
     setEmail('')
     setName('')
     setMessage('')
-    setEmailCheck('')
+    setErrorCheck('')
   }
 
   return (
@@ -64,9 +64,9 @@ export default function Contact() {
 </div>
 <button type="submit" onClick={handleContactSubmit} className="btn btn-outline-primary px-3 py-2" id='send'>Send</button>
 </form>
-{emailCheck && (
+{errorCheck && (
         <div>
-          <p className="error-text">{emailCheck}</p>
+          <p className="error-text">{errorCheck}</p>
         </div>
       )}
 </div>

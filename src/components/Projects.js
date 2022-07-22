@@ -1,13 +1,11 @@
 import React from 'react';
-// import './styles/projects.css'
 
-
-
-
+//Project Component
 export default function Projects({lists}) {
 
   return (
     <section className="container"> 
+    {/* Maps through list of projects and then renders them all as below */}
         {lists.map((list) => (
           
           <div className= "projectContainer" key={list.id}>

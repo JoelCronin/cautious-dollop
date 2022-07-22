@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Resume Component
 function Resume() {
   return (
     <div className='skills'>

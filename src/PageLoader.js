@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 import lists from './projectsList'
 import './app.css'
 
-
+//Logic to decide which page should be rendered
 function PageLoader() {
 
     const [currentPage, setCurrentPage] = useState('AboutMe')

@@ -119,17 +119,12 @@
     font-size: large;
   }
   
-  .container-2{
-    font-size: small;
-    background-color: var(--lightblue) ;
-  }
   
   .title {
     font-size: x-large;
   }
   
   .projects-title {
-  
   border-right: 2px var(--white) solid;
   font-size: x-large;
   padding-right: 7px;
@@ -140,23 +135,6 @@
     width: 27ch;
   }
   
-  .horiseon {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  text-align: justify;
-  text-justify: inter-word;
-  font-size: medium;
-  }
-  
-  .horiseon p {
-    margin: 0px 30px 30px 30px;
-  }
-
-  
-
   .project{
     display: flex;                 
     flex-wrap: wrap;
@@ -164,12 +142,9 @@
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-
     text-align: justify;
   }
   
-
-
    .iconProjects{
     display: flex;
     align-items: center;
@@ -206,7 +181,6 @@
     width: 100vw;
 }
 
-
 .iconLink{
     display: flex;
     align-items: center;
@@ -221,7 +195,6 @@
 .iconLink:hover{
   fill: gold
 }
-
 
 .github{
     display: flex;
@@ -238,9 +211,6 @@
   fill: gold
 }
 
-
-
-
 .CV{
     fill: var(--brown);
 }
@@ -249,16 +219,10 @@
 } */
 
 
-
-
-
 #contact.home-section.wg-contact { 
     font-weight: 400;
     text-align: left;
-    font-family: inherit;
     font-size: 1em;
-    line-height: inherit;
-    color: inherit;
     box-sizing: border-box;
     display: block;
     animation: intro 0.3s both;
@@ -270,7 +234,6 @@
   #contact-header{
   text-align: left;
   box-sizing: border-box;
-  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.25;
   color: var(--brown);
@@ -292,7 +255,6 @@
     margin: 0px 30px;
   }
  
-
   .btn.btn-outline-primary.px-3.py-2{
   box-sizing: border-box;
   margin: 0;
@@ -340,31 +302,21 @@
   .mb-3{
   font-weight: 400;
   text-align: left;
-  font-family: inherit;
   font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
   box-sizing: border-box;
   margin-bottom: 1rem;
 }
-  
-  
+
   form{
   font-weight: 400;
   text-align: left;
-  font-family: inherit;
   font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
   box-sizing: border-box;}
   
   .form-group.form-inline{
   font-weight: 400;
   text-align: left;
-  font-family: inherit;
   font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
   box-sizing: border-box;
   margin-bottom: 1rem;
   display: flex;
@@ -408,7 +360,6 @@
   label{
     font-weight: 400;
     text-align: left;
-    font-family: inherit;
     font-size: 1rem;
     box-sizing: border-box;
     display: inline-block;
@@ -425,18 +376,14 @@
   .form-group{
     font-weight: 400;
     text-align: left;
-    font-family: inherit;
     font-size: 1rem;
-    line-height: inherit;
-    color: inherit;
     box-sizing: border-box;
     margin-bottom: 1rem;
     display: flex;
     flex-flow: row wrap;
     align-items: center;}
   
-    #inputMessage
-    {
+    #inputMessage{
     box-sizing: border-box;
     overflow: auto;
     resize: vertical;
@@ -476,7 +423,6 @@
 .endType{
     text-align: center;
 }
-
 
 
   @media screen and (max-width: 992px){

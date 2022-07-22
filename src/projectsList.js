@@ -1,3 +1,4 @@
+//LIst of projects to add to portfolio
 const projects = [
   {
     id: 1,
