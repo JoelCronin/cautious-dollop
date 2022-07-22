@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cautious-dollop/static/css/main.f88e5955.css",
+    "main.js": "/cautious-dollop/static/js/main.eac6514a.js",
+    "static/media/backG4.jpg": "/cautious-dollop/static/media/backG4.14f46d37843905330859.jpg",
+    "static/media/profilePic.jpg": "/cautious-dollop/static/media/profilePic.d8dbd523bd0440577288.jpg",
+    "index.html": "/cautious-dollop/index.html",
+    "main.f88e5955.css.map": "/cautious-dollop/static/css/main.f88e5955.css.map",
+    "main.eac6514a.js.map": "/cautious-dollop/static/js/main.eac6514a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f88e5955.css",
+    "static/js/main.eac6514a.js"
+  ]
+}
