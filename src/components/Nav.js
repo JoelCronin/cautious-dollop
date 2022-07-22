@@ -5,10 +5,11 @@ export default function Nav({currentPage, handlePageChange}) {
 //Nav Component
   return (
     <div className="navigation">
+
+      <nav>
       <header className="header">
         <h1>Joel Cronin</h1>
       </header> 
-      <nav>
         <a href="#AboutMe"
         // On click will render appropriate page and change class so that the text can be highlighted
            onClick={() => handlePageChange('AboutMe')}
