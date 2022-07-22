@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cautious-dollop/static/css/main.4677d679.css",
+    "main.css": "/cautious-dollop/static/css/main.8190842c.css",
     "main.js": "/cautious-dollop/static/js/main.c98ae58f.js",
     "static/media/backG4.jpg": "/cautious-dollop/static/media/backG4.14f46d37843905330859.jpg",
     "static/media/profilePic.jpg": "/cautious-dollop/static/media/profilePic.d8dbd523bd0440577288.jpg",
     "index.html": "/cautious-dollop/index.html",
-    "main.4677d679.css.map": "/cautious-dollop/static/css/main.4677d679.css.map",
+    "main.8190842c.css.map": "/cautious-dollop/static/css/main.8190842c.css.map",
     "main.c98ae58f.js.map": "/cautious-dollop/static/js/main.c98ae58f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4677d679.css",
+    "static/css/main.8190842c.css",
     "static/js/main.c98ae58f.js"
   ]
 }
