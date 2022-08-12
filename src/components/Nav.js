@@ -23,12 +23,12 @@ export default function Nav({currentPage, handlePageChange}) {
           >
             Portfolio
         </a>
-        <a href="#Contact"
+        {/* <a href="#Contact"
            onClick={() => handlePageChange('Contact')}
            className={currentPage === 'Contact' ? 'active' : 'nav'}
           >
             Contact
-        </a>
+        </a> */}
         <a href="#Contact"
            onClick={() => handlePageChange('Resume')}
            className={currentPage === 'Resume' ? 'active' : 'nav'}

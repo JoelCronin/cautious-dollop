@@ -1,10 +1,10 @@
 :root{
-    /* Just four colours used and all have vars as below: */
     --lightblue: #eaf2fa;
     --white: #fff;
     --offWhite: #f7f7f7;
     --black: black;
     --brown: #50352B;
+    --gold: 
   }
 
   *, 
@@ -15,18 +15,14 @@
      padding: 0; 
      box-sizing: border-box;
      color: #50352B;
-  
-  }
-
-  .container-1{
-    background-image: url("assets/backG4.jpg");
+     /* background: linear-gradient(46deg, #0a192f 59.61%, #213c63 102.67%) ;  */
+     color: var(--offWhite);
   }
 
 
-  
+
   header {
-    background-color: var(--lightblue);
-    color: var(--black);
+    /* background: linear-gradient(46deg, #0a192f 59.61%, #213c63 102.67%) ; */
     text-align: center;
     margin: 0;
     /* width: 100vw; */
@@ -36,30 +32,30 @@
     margin: 0;
   }
   
+  .navigation {
+    background: linear-gradient(46deg, #0a192f 59.61%, #213c63 102.67%) ; 
+  }
+  
   nav {
     display: flex;
     font-size: 20px;
-    background-color: var(--lightblue);
     justify-content: space-around;
-    color: var(--brown)
   }
   
   nav a{
-    background-color: var(--lightblue);
     padding: 14px 20px;
-    color: var(--brown);
+    color: var(--offWhite);
     /* Removed the links underline for cleaner look */
     text-decoration: none;
-    transition: 0.7s;
+    transition: 1s;
   }
 
   nav a:hover{
-    /* font-size: x-large; */
     color: gold;
   }
 
   .active{
-    background-color:  #eaf0fa00;
+    color:  gold;
     padding-right: 20px;
     font-weight: 700;
     text-decoration: underline;
@@ -71,20 +67,18 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 1fr;
-    
+    /* margin-bottom: 100px;  */
   }
 
   .projectContainer{
     border-right: var(--lightblue) solid 6px;
     border-bottom: var(--lightblue) solid 6px;
-    background-image: url("assets/backG4.jpg");
   }
   
   
   .container-1{
     display: flex;
-      margin: 0;
-      background-color: var(--white);
+    margin: 0;
   }
   
   .container-1 h2 {
@@ -99,9 +93,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-right: var(--lightblue) 2px solid;
     padding: 4px;
     padding: 50px;
+    height: 90vh;
   }
   
   .profPic {
@@ -112,11 +108,15 @@
   }
   
   .bio {
-    flex-grow: 1;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-right: var(--lightblue) 2px solid;
+    padding: 4px;
     padding: 50px;
-    line-height: 1.5;
-    font-size: large;
+    height: 90vh;
+    font-size: x-large;
   }
   
   
@@ -152,8 +152,13 @@
     height: 140px;
     padding: 0px;
     margin: 10px;
-    fill: var(--brown);
+    fill: rgba(255, 217, 0, 0.954);
+    transition: 1s
    }
+
+   .iconProjects:hover{
+    fill: rgb(228, 14, 14)
+  }
 
    .packages{
     font-weight: 600;
@@ -169,29 +174,38 @@
     text-align: center;
   }
 
+  body{
+    position: relative;
+    min-height: 90vh;
+    background: linear-gradient(46deg, #0a192f 59.61%, #213c63 102.67%) ; 
+    /* display: flex; */
+  }
+
   #footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: #eaf2fa;
-    height: 100px;
-    z-index: -2;
-    /* width: 100vw; */
+    padding-top: 40px;
 }
 
 .iconLink{
-    display: flex;
+    position: relative;
+    top: 50px;
+    /* display: flex; */
     align-items: center;
     width: 40px;
     height: 40px;
-    padding: 0px;
-    margin: 10px;
-    fill: var(--brown);
+    margin: 25px;
+    fill: rgba(255, 217, 0, 0.954);
     transition: 1s;  
 }
 
 .iconLink:hover{
-  fill: gold
+  fill: rgb(228, 14, 14)
 }
 
 .github{
@@ -200,13 +214,13 @@
     width: 30px;
     height: 30px;
     padding: 0px;
-    margin: 10px;
-    fill:var(--brown);
+    margin: 20px;
+    fill: gold;
     transition: 1s;
 }
 
 .github:hover{
-  fill: gold
+  fill: rgb(228, 14, 14)
 }
 
 .CV{
@@ -226,7 +240,6 @@
     animation: intro 0.3s both;
     animation-delay: 0.15s;
     padding: 60px 0 60px 0;
-    background-color: #eaf2fa;
   }
   
   #contact-header{
@@ -247,7 +260,6 @@
   .package{
     display: flex;
     flex-direction: column;
-    background-image: url("assets/backG4.jpg");
   }
   form{
     margin: 0px 30px;
@@ -261,7 +273,6 @@
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
-  background-color: transparent;
   border: 1px solid transparent;
   color: var(--brown);
   border-color: var(--brown);
@@ -348,7 +359,6 @@
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -392,15 +402,12 @@
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }
 
-.skills{
-    background-image: url("assets/backG4.jpg");
-}
+
 
 #skillTitle{
     text-align: center;
@@ -410,6 +417,7 @@
 #skillPoints{
     display: flex;
     justify-content: space-around;
+    font-size: x-large;
     line-height: 1.6 ;
 }
 
@@ -418,9 +426,23 @@
     font-size: x-large;
 }
 
+
 .endType{
     text-align: center;
+    font-size: x-large;
 }
+
+.general{ 
+  display: flex;
+  text-align: left;
+  font-size: x-large;
+  justify-content: center;
+  line-height: 1.6 ;
+}
+
+
+
+
 
 
   @media screen and (max-width: 992px){
@@ -450,6 +472,10 @@
       align-items: center;
     }
 
+    header {
+      width: 100vw;
+    }
+
   
     /* Borders needed to be adjusted to make sense on smaller screens so removed in some sections and moved from right to bottom on others */
     
@@ -459,6 +485,19 @@
     .profile {
       border-bottom: var(--lightblue) solid 2px;
       border-right: 0;
+      height:auto
+    }
+
+    .bio{
+      height:auto
+    }
+
+    .container{
+      grid-template-columns: repeat(1,1fr);
+    }
+
+    .general{
+
     }
   
   }
