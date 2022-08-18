@@ -73,6 +73,11 @@
   .projectContainer{
     border-right: var(--lightblue) solid 6px;
     border-bottom: var(--lightblue) solid 6px;
+    
+  }
+
+  .projectContainer a{
+    text-decoration: none;
   }
   
   

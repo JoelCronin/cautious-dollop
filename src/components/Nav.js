@@ -1,9 +1,24 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function Nav({currentPage, handlePageChange}) {
 
+  const topVariant = {
+    hidden:{
+      y: -800
+    },
+    visible:{
+      y: 0,
+      transition: {
+        duration: 1.1
+      }
+    }
+  }
+  
+
 //Nav Component
   return (
+    <motion.div variants={topVariant} initial="hidden" animate="visible" className='left-signup-container'>
     <div className="navigation">
 
       <nav>
@@ -37,5 +52,6 @@ export default function Nav({currentPage, handlePageChange}) {
         </a>
       </nav>
     </div>
+    </motion.div>
   );
 }

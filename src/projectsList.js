@@ -26,7 +26,7 @@ const projects = [
     gitHub: 'https://github.com/JoelCronin/curly-chainsaw',
     deployed: 'https://true-donair-40943.herokuapp.com/',
     description: 'Built a CMS style blog site where other developers can publish their own content as well as comment on the posts of others. The front and back ends needed to be made from scratch and secure means of logging in was also required.               ',
-    skills: 'Express / Node  / Sequelize / BCrypt'
+    skills: 'SQL / Express / MVC / Sequelize / BCrypt'
   },
   {
     id:4,
@@ -35,7 +35,7 @@ const projects = [
     gitHub: 'https://github.com/JoelCronin/fantastic-journey',
     deployed: 'https://drive.google.com/file/d/1hDlmzuwOKSTTO4-Qiv6TIIBAOH4SaaD_/view',
     description: 'I was asked to build a bespoke Content Management System (CMS) so that a company could easily perform CRUD tasks on their employee database. Information listed included, roles, salary, departments and Managers.                                      ',
-    skills: 'MySQL / Node/ Inquirer / CMS / CRUD'
+    skills: 'SQL / Node / Inquirer / CMS / MySQL'
   },
   {
     id:5,
